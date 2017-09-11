@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<link rel="stylesheet"  href="./lib/tau/mobile/theme/default/tau.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+
+<body>
+	<div class="ui-page" id="main">
+		<div class="ui-header">
+			<div class="ui-title-text-main">Ideal Weight Calculator</div>
+			<a id="btnAbout" class="ui-header-btn ui-header-btn-right ui-header-btn-icon btn-icon-info"></a>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<div class="content">
+				<h4>Gender</h4>
+				<input id="male" type="radio" name="gender" value="Male" checked="checked">Male<br>
+				<input id="female" type="radio" name="gender" value="Female">Female
+				<h4>Weight</h4>
+				<input id="weight" type="number" placeholder="Input your weight(kg)">
+				<h4>Height</h4>
+				<input id="height" type="number" placeholder="Input your height(cm)">
+				<div id="btnEnter" class="ui-btn button-padding">Enter</div>
+			</div>
+		</div><!-- /content -->
+	</div><!-- /page -->
+	
+	<div class="ui-page" id="about">
+		<div class="ui-header">
+			<h1>About</h1>
+			<a id="btnBack" class="ui-header-btn ui-header-btn-left ui-header-btn-icon btn-icon-back"></a>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<div class="content-about">
+				<div id="logo" class="icon-cc logo"></div>
+				<h4>Ideal Weight Calculator</h4>
+				<div class="content-detail">Versi 1.0.0</div>
+				<h4>Developed by</h4>
+				<div class="content-detail">Muhammad Ikhsan</div>
+			</div>
+		</div><!-- /content -->
+	</div><!-- /page -->
+	
+	<div class="ui-page" id="result-page">
+		<div class="ui-header">
+			<h1>Result</h1>
+			<a id="btnBack1" class="ui-header-btn ui-header-btn-left ui-header-btn-icon btn-icon-back"></a>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<div class="content-result">
+				<div id="logo-result" class="icon-cc thin"></div>
+				<h3 id="result">Result</h3>
+			</div>
+		</div><!-- /content -->
+	</div><!-- /page -->
+
+	<script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>

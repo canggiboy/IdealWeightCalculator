@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://ikhsan.com/IdealWeightCalculator" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="w1HbMWTkYP.IdealWeightCalculator" package="w1HbMWTkYP" required_version="2.4"/>
+    <author email="muhammadikhsan1908@gmail.com">Muhammad Ikhsan</author>
+    <content src="index.html"/>
+    <description>Is your body proportional ?.
+
+With this application you can find out whether your body is thin, normal, fat, or obesity. Let's healty</description>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>Ideal Weight Calculator</name>
+    <tizen:profile name="mobile"/>
+    <tizen:setting context-menu="disable"/>
+</widget>

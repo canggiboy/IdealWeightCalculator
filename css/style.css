@@ -1,0 +1,49 @@
+.ui-header > .ui-title-text-main {
+	margin-top: 14px;
+	margin-left: 15px;
+	font-size: 22px;
+}
+.ui-mobile .ui-page {
+	background-color: white;
+	background-image: none;
+}
+h4 {
+	margin: 10px;
+}
+.content {
+	margin: 5px;
+}
+.content-about {
+	text-align:center;
+	margin-top:40%;
+}
+.content-result {
+	text-align:center;
+	margin-top:40%;
+}
+.button-padding {
+	margin: 10px;
+}
+.btn-icon-info::after {
+	-webkit-mask-image: url(images/info.png);
+}
+.btn-icon-back::after {
+	-webkit-mask-image: url(images/back.png);
+}
+.content-detail {
+	margin-left: 20px;
+}
+
+.icon-cc{
+    background-size:contain;
+    background-repeat:no-repeat;
+    margin:auto;
+    display:block;
+    width:200px;height:200px;
+}
+
+.logo{background-image:url(images/logo.png);}
+.thin{background-image:url(images/thin.png);}
+.normal{background-image:url(images/normal.png);}
+.fat{background-image:url(images/fat.png);}
+.obesity{background-image:url(images/obesity.png);}
